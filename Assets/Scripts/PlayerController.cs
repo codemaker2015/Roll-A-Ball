@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour {
 
 	void Update(){
 		velocityBall = rb.velocity.magnitude;
-		velocityBallText.text = "Speed of the ball is: " + velocityBall.ToString();
+		velocityBallText.text = "Ball Speed: " + velocityBall.ToString();
 	}
 
 	void FixedUpdate ()
